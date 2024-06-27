@@ -5,3 +5,5 @@
    - you can also switch to a database name that does not exist
 - show collection
    - view collections(tables in sql) of the database
+- db.createCollection
+   - this is how we create a collection in mongodb via mongosh(mongoshell) 
