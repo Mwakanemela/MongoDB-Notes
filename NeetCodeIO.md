@@ -7,4 +7,5 @@
    - view collections(tables in sql) of the database
 - db.createCollection("collection_name")
    - this is how we create a collection in mongodb via mongosh(mongoshell)
-   - 
+- db.collection_name.drop()
+   - this is how to delete a mongodb collection
