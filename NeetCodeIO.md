@@ -3,3 +3,5 @@
 - use mwaka
    - means that switch to database called mwaka
    - you can also switch to a database name that does not exist
+- show collection
+   - view collections(tables in sql) of the database
