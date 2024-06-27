@@ -9,3 +9,5 @@
    - this is how we create a collection in mongodb via mongosh(mongoshell)
 - db.collection_name.drop()
    - this is how to delete a mongodb collection
+- db.listingsAndReviews.find()
+   - display documents within that collections
