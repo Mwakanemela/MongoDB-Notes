@@ -25,3 +25,5 @@
    - filtering but accessing field inside an object
 - db.restaurants.count() // db.restaurants.countDocuments()
    - DeprecationWarning: Collection.count() is deprecated. Use countDocuments or estimatedDocumentCount.
+- db.restaurants.insertOne({name:"Kayange"})
+   - add data into mongodb collection
