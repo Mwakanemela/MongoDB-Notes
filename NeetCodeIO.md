@@ -17,3 +17,5 @@
    - limit number of document to 2
 - db.restaurants.find({borough: "Brooklyn"}, {address: true, name: true}).limit(1)
    - get with address and name fields the rest discard
+- db.restaurants.find({}, {name: true}).limit(5).sort({_id: 1})
+   - project documents with name only limt 5 and sort by id is ascending order -1 for descending order
