@@ -19,3 +19,5 @@
    - get with address and name fields the rest discard
 - db.restaurants.find({}, {name: true}).limit(5).sort({_id: 1})
    - project documents with name only limt 5 and sort by id is ascending order -1 for descending order
+- db.restaurants.find({}, {name: true}).limit(5).sort({_id: 1}).skip(2)
+   - skip 2 that means 2 first documents will be skipped and still get 5 documents
