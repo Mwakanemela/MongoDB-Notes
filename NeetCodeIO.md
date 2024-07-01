@@ -13,3 +13,5 @@
    - display documents within that collections
 - db.restaurants.find({name: "Mwakanemela"})
    - find a document
+- db.restaurants.find().limit(2)
+   - limit number of document to 2
