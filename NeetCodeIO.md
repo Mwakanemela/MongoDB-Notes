@@ -23,3 +23,5 @@
    - skip 2 that means 2 first documents will be skipped and still get 5 documents
 - db.restaurants.find({"grades.grade": "A"}, {name : true, "grades.grade": true}).limit(3)
    - filtering but accessing field inside an object
+- db.restaurants.count() // db.restaurants.countDocuments()
+   - DeprecationWarning: Collection.count() is deprecated. Use countDocuments or estimatedDocumentCount.
