@@ -15,3 +15,5 @@
    - find a document
 - db.restaurants.find().limit(2)
    - limit number of document to 2
+- db.restaurants.find({borough: "Brooklyn"}, {address: true, name: true}).limit(1)
+   - get with address and name fields the rest discard
