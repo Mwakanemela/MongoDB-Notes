@@ -11,3 +11,5 @@
    - this is how to delete a mongodb collection
 - db.listingsAndReviews.find()
    - display documents within that collections
+- db.restaurants.find({name: "Mwakanemela"})
+   - find a document
